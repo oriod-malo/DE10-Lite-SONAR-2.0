@@ -1,0 +1,2 @@
+Warning (10268): Verilog HDL information at SONAR_DISPLAY.v(72): always construct contains both blocking and non-blocking assignments File: C:/AlteraPrj/Radar_FPGA/SONAR_DISPLAY.v Line: 72
+Warning (10268): Verilog HDL information at servoControl.v(23): always construct contains both blocking and non-blocking assignments File: C:/AlteraPrj/Radar_FPGA/servoControl.v Line: 23

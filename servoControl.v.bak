@@ -1,0 +1,12 @@
+module servoControl(
+		input clock,
+		output servo,
+);
+
+// I neeed a counter for 20ms
+// since freq is 50MHz
+// 1/50*10e6 = 20ns; 20ms/20ns = 1mln clock pulses. It restarts every 1mln clock pulses
+// counter needs 20bits, [19:0]
+
+// min 90deg is 1ms = 50 000 clks
+// max 180deg is 2ms= 100 000 clks
